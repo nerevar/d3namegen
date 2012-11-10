@@ -94,3 +94,11 @@ a.ui-button.imgbutton span span span { padding: 0 5px; }
 .d3button.processing:hover span,
 .d3button.disabled.hover span,
 .d3button.processing.hover span { color: #574b45; text-shadow: 0 0 5px #080505; }
+
+/* Github fork me ribbon */
+.b-ribbon
+{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
