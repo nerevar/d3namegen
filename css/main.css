@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: #000 url(../img/d3.jpg) 50% top no-repeat;	
+}
+
+.b-generate__wrap
+{
+    text-align: center;
+}
+
+.b-item
+{
+    color: #FFCB8D;
+	font: 48px/1.3em Diablo, Arial;
+	text-shadow: 0 0 5px #DD3400;
+	/*font: 50px/1.3em "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	text-align: center;
+}
+
+.b-items__item
+{
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.b-stats-link
+{
+    padding-top: 8px;
+}
+
+.b-share
+{
+    margin-top: 10px;
+}
+
+.b-share__button_type_twitter,
+.b-share__button_type_vk
+{
+    display: inline-block;
+}
+
+.b-copyright
+{
+	position: fixed;
+	bottom: 0;
+	right: 5px;
+	color: #FFCB8D;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 12px;
+}
+
+
+/* buttons */
+.ui-button,
+.ui-cancel { background: none; border: 0; cursor: pointer; display: inline-block; height: auto; overflow: visible; padding: 0; margin: 0; vertical-align: middle; outline: none; }
+.ui-button span,
+.ui-cancel span { outline: none; display: inline-block; padding: 0; margin: 0; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 12px; font-weight: normal; height: 38px; line-height: 38px; text-align: center; text-decoration: none; text-transform: uppercase; white-space: nowrap; cursor: pointer; }
+.ui-button span { padding: 0 0 0 28px; background-position: 0 0; }
+.ui-button span span { padding: 0 28px 0 0; background-position: 100% -123px; }
+.ui-button.hover span,
+.ui-button:hover span { background-position: 0 -41px; }
+.ui-button.hover span span,
+.ui-button:hover span span { background-position: 100% -164px; }
+.ui-button.disabled,
+.ui-button.processing { cursor: default; }
+.ui-button.disabled span,
+.ui-button.disabled:hover span,
+.ui-button.disabled.hover span,
+.ui-button.processing span,
+.ui-button.processing:hover span,
+.ui-button.processing.hover span { background-position: 0 -82px; cursor: default; }
+.ui-button.disabled span span,
+.ui-button.disabled:hover span span,
+.ui-button.disabled.hover span span,
+.ui-button.processing span span,
+.ui-button.processing:hover span span,
+.ui-button.processing.hover span span { background-position: 100% -205px; cursor: default; }
+a.ui-button.imgbutton span { padding: 0 0 0 10px; }
+a.ui-button.imgbutton span span { padding: 0 10px 0 0; }
+a.ui-button.imgbutton span span span { padding: 0 5px; }
+.ui-controls { border: 0; margin: 1.5em 0; padding: 0; overflow: hidden; clear: both; }
+
+/* buttons */
+.d3button { height: 36px;   box-shadow: 0 0 5px #000; }
+.d3button span { line-height: 36px; height: 36px; padding-left: 25px; background-color: transparent; background-image: url("../img/d3button.png"); background-repeat: no-repeat; color: #ffcb8d; font-family: "Palatino Linotype", "Times", serif; text-shadow: 0 0 5px #dd3400; }
+.d3button span span { padding: 0 32px 0 10px; }
+.d3button.hover span,
+.d3button:hover span { color: #fff; }
+.d3button.disabled span,
+.d3button.processing span,
+.d3button.disabled:hover span,
+.d3button.processing:hover span,
+.d3button.disabled.hover span,
+.d3button.processing.hover span { color: #574b45; text-shadow: 0 0 5px #080505; }
