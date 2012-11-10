@@ -2,7 +2,8 @@
    Author's custom styles
    ========================================================================== */
 
-body {
+body
+{
     background: #000 url(../img/d3.jpg) 50% top no-repeat;	
 }
 
@@ -14,9 +15,8 @@ body {
 .b-item
 {
     color: #FFCB8D;
-	font: 48px/1.3em Diablo, Arial;
+	font: 48px/1.3em Diablo, Arial, sans-serif;
 	text-shadow: 0 0 5px #DD3400;
-	/*font: 50px/1.3em "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
 	text-align: center;
 }
 
